@@ -1,6 +1,7 @@
-package com.github.2catycm.onejava.services
+package cn.edu.sustech.onejava.onejava.services
 
-import com.github.2catycm.onejava.MyBundle
+import cn.edu.sustech.onejava.onejava.MyBundle
+
 
 class MyApplicationService {
 

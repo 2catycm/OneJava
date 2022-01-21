@@ -1,5 +1,4 @@
-package com.github.2catycm.onejava
-
+package cn.edu.sustech.onejava.onejava
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
 import org.jetbrains.annotations.PropertyKey

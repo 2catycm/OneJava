@@ -1,9 +1,8 @@
-package com.github.2catycm.onejava.listeners
-
+package cn.edu.sustech.onejava.onejava.listeners
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
-import com.github.2catycm.onejava.services.MyProjectService
+import cn.edu.sustech.onejava.onejava.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

@@ -1,7 +1,8 @@
-package com.github.2catycm.onejava.services
+package cn.edu.sustech.onejava.onejava.services
+
 
 import com.intellij.openapi.project.Project
-import com.github.2catycm.onejava.MyBundle
+import cn.edu.sustech.onejava.onejava.MyBundle
 
 class MyProjectService(project: Project) {
 

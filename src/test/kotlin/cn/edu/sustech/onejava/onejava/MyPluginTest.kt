@@ -1,4 +1,4 @@
-package com.github.2catycm.onejava
+package cn.edu.sustech.onejava.onejava
 
 import com.intellij.ide.highlighter.XmlFileType
 import com.intellij.psi.xml.XmlFile

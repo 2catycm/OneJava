@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.2catycm.onejava</id>
+    <id>cn.edu.sustech.onejava.onejava</id>
     <name>OneJava</name>
-    <vendor>2catycm</vendor>
+    <vendor>SUSTech OneJava Team</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.2catycm.onejava.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.2catycm.onejava.services.MyProjectService"/>
+        <applicationService serviceImplementation="cn.edu.sustech.onejava.onejava.services.MyApplicationService"/>
+        <projectService serviceImplementation="cn.edu.sustech.onejava.onejava.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.2catycm.onejava.listeners.MyProjectManagerListener"
+        <listener class="cn.edu.sustech.onejava.onejava.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
