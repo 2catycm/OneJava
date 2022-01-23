@@ -3,9 +3,6 @@
     <id>cn.edu.sustech.onejava.onejava</id>
     <name>OneJava</name>
     <vendor email="12011404@mail.sustech.edu.cn">SUSTech OneJava Team</vendor>
-    <description>
-        TODO
-    </description>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
