@@ -2,17 +2,15 @@
 <idea-plugin>
     <id>cn.edu.sustech.onejava.onejava</id>
     <name>OneJava</name>
-    <vendor>SUSTech OneJava Team</vendor>
-
+    <vendor email="12011404@mail.sustech.edu.cn">SUSTech OneJava Team</vendor>
+    <description>
+        TODO
+    </description>
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="cn.edu.sustech.onejava.onejava.services.MyApplicationService"/>
-        <projectService serviceImplementation="cn.edu.sustech.onejava.onejava.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="cn.edu.sustech.onejava.onejava.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
