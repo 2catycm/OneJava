@@ -12,16 +12,15 @@ package cn.edu.sustech.onejava.bean;
  *      var map = new TreeMap< String, Double>();
  *      var map = new java.util.TreeMap< String, Double>();
  *  </textarea>
+ *  Notice that "java.lang" but not "java.lang.other_package_in_lang" is special that it cannot and need not be imported.
  *  In code generator, JDK classes would not be copied to the generated code.
  */
 public class JdkDependency {
-    private String fullName;
-
-    public JdkDependency(String fullName) {
-        this.fullName = fullName;
+    public static boolean isJDKClass(String classFullName){
+        System.out.println();
+        throw new UnsupportedOperationException("TODO");  //TODO
     }
-
     public String getFullName() {
-        return fullName;
+        throw new UnsupportedOperationException("TODO");  //TODO
     }
 }
