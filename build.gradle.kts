@@ -52,6 +52,7 @@ tasks {
     // Set the JVM compatibility versions
     properties("javaVersion").let {
         withType<JavaCompile> {
+            options.encoding = "UTF-8"
             sourceCompatibility = it
             targetCompatibility = it
         }

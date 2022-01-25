@@ -18,11 +18,11 @@ public class GradleUTF8Test extends BasePlatformTestCase {
         return "src/test/testData";
     }
     public void testGetPath() {
-        Path cwd = Path.of("");
-        System.out.println("current test path is: "+cwd.toAbsolutePath());
+        Path cwd = Path.of(getTestDataPath());
+        System.out.println("当前路径: "+cwd.toAbsolutePath());
         final var projectRelativePath = Path.of("中文包名", "假想的目标文件.java");
         final var projectRootPath = Paths.get("中文路径编译可靠性测试");
-        final var x = projectRootPath.resolve(projectRelativePath);
+        final var x = cwd.resolve(projectRootPath).resolve(projectRelativePath);
         assert(x.toFile().isFile());
         System.out.println(x);
     }
