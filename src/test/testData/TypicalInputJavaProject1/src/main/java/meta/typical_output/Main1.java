@@ -12,7 +12,7 @@ public class Main1 {
 //下面的需要形容整个项目
 interface Package_类1{
     /**
-     * message from JavaLite
+     * message from One Cup Java
      * package 类1;
      * import 包1.类1.包1;
      * import java.util.Scanner;
@@ -21,9 +21,9 @@ interface Package_类1{
         public static void main(String[] args) {
             Package_包1.Package_类1.包1 a = new Package_包1.Package_类1.包1();
         }
-        private static 包1.类1.包1 包1(java.util.Scanner in){
-            return new 包1.类1.包1();
-        }
+//        private static 包1.类1.包1 包1(java.util.Scanner in){
+//            return new 包1.类1.包1();
+//        }
     }
 }
 interface Package_包1{
